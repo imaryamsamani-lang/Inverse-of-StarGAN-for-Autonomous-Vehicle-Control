@@ -1,6 +1,8 @@
 # Inverse of StarGAN for Adverse Weather Image Reconstruction
 
-A PyTorch implementation of Inverse StarGAN with Capsule Networks for reconstructing clear, normal-condition images from adverse weather conditions captured by autonomous vehicle cameras. The system is designed to enhance perception and safety for autonomous vehicles operating under challenging weather scenarios such as rain, snow, fog, and nightlight. This repository contains the code and training scripts to reproduce the results reported in our study.
+This is the official implementation of Inverse StarGAN with Capsule Networks for reconstructing clear, normal-condition images from adverse weather conditions captured by autonomous vehicle cameras. The system is designed to enhance perception and safety for autonomous vehicles operating under challenging weather scenarios such as rain, snow, fog, and nightlight. This repository contains the code and training scripts to reproduce the results reported in our study.
+
+[paper](https://ieeexplore.ieee.org/document/10977956)
 
 ## Overview
 
@@ -32,7 +34,7 @@ Additionally, for perception tasks in the simulation:
 
 YOLOv8 was used for object detection: [YOLOv8](https://github.com/ultralytics/ultralytics.git)
 
-CondLane was used for lane detection [Condlane](https://github.com/aliyun/conditional-lane-detection.git)
+CondLane was used for lane detection: [Condlane](https://github.com/aliyun/conditional-lane-detection.git)
 
 ## Dataset
 
