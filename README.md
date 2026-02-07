@@ -51,7 +51,7 @@ The training data was collected from AVIS Engine, an autonomous vehicle simulato
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/Inverse-StarGAN-Capsule.git
+git clone https://github.com/imaryamsamani-lang/Inverse-of-StarGAN-for-Autonomous-Vehicle-Control.git
 cd Inverse-StarGAN-Capsule
 
 
@@ -67,15 +67,13 @@ pip install -r requirements.txt
 
 ### Training
 ```bash
-python train.py --dataset_path ./data --epochs 100 --batch_size 16 --lr 0.0002
+jupyternotebook train.ipynb
 ```
 
 ### Inference
-python inference.py --input ./test_images/rain.jpg --output ./results/clear.jpg --checkpoint ./weights/best_model.pth
+python main.py
 
 ## Results
-
-Reconstructed images achieve PSNR ~22.21 and SSIM ~0.92 in closed-loop simulations.
 
 Robust generalization across rain, snow, fog, nightlight.
 
@@ -85,13 +83,26 @@ Enhances safety and reliability of perception systems in autonomous vehicles.
 ![Diagram](images/4.png)
 ![Diagram](images/5.png)
 
-## Control Diagrams
+## Close Loop Analysis
 
-![Diagram](plots/error_x.png)
+In addition to the visual data, we have included vehicle control diagrams capturing key dynamic parameters over time which can provide complementary insights into vehicle behavior under different environmental and weather conditions. These include:
+
+Location over time – Tracks the vehicle’s position throughout the scenarion:
 ![Diagram](plots/location.png)
-![Diagram](plots/speed.png)
-![Diagram](plots/steering.png)
+
+Location error – Tracks the vehicle’s offset to the main path:
+![Diagram](plots/error_x.png)
+
+Trajectory plots (X vs Y) – Vehicle path in 2D space:
 ![Diagram](plots/xy.png)
+
+Speed profiles – Vehicle velocity variations:
+![Diagram](plots/speed.png)
+
+Steering profiles – Vehicle steer variations:
+![Diagram](plots/steering.png)
+
+Yaw rate – Rotational movement of the vehicle:
 ![Diagram](plots/yaw.png)
 
 ## References
