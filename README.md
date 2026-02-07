@@ -40,11 +40,10 @@ Note: Training datasets are large; users can use subsets for experimentation or 
 
 ## Simulator
 
+The data was generated and the model was evaluated using the Avis Engine Simulator: [Avis Engine](https://github.com/AVISEngine/AVIS-Engine-Python-API.git)
+
 ![Diagram](images/1.png)
 ![Diagram](images/2.png)
-![Diagram](images/3.png)
-![Diagram](images/4.png)
-![Diagram](images/5.png)
 
 ## Installation
 
@@ -80,7 +79,9 @@ Robust generalization across rain, snow, fog, nightlight.
 
 Enhances safety and reliability of perception systems in autonomous vehicles.
 
-
+![Diagram](images/3.png)
+![Diagram](images/4.png)
+![Diagram](images/5.png)
 
 ## Control Diagrams
 
