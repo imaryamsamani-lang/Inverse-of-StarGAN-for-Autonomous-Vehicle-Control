@@ -28,6 +28,12 @@ High-quality results: Average PSNR = 22.21, SSIM = 0.92
 
 Modular PyTorch implementation for experimentation and extension
 
+Additionally, for perception tasks in the simulation:
+
+YOLOv8 was used for object detection: [YOLOv8](https://github.com/ultralytics/ultralytics.git)
+
+CondLane was used for lane detection [Condlane](https://github.com/aliyun/conditional-lane-detection.git)
+
 ## Dataset
 
 Simulated data: Generated via AVIS ENGINE with weather-specific scenarios
