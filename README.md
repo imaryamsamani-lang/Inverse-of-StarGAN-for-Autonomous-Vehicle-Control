@@ -40,7 +40,9 @@ Note: Training datasets are large; users can use subsets for experimentation or 
 
 ## Simulator
 
-The data was generated and the model was evaluated using the Avis Engine Simulator: [Avis Engine](https://github.com/AVISEngine/AVIS-Engine-Python-API.git)
+The training data was collected from AVIS Engine, an autonomous vehicle simulator, and includes a wide range of scenarios such as day and night conditions, static and dynamic obstacles, and various adverse weather effects. Specifically, rain, snow, and fog were simulated, with realistic sensor noise added to improve model robustness and realism.
+
+[Avis Engine Repository](https://github.com/AVISEngine/AVIS-Engine-Python-API.git)
 
 ![Diagram](images/1.png)
 ![Diagram](images/2.png)
