@@ -38,6 +38,14 @@ Supports adverse weather image reconstruction and multi-domain generalization
 
 Note: Training datasets are large; users can use subsets for experimentation or generate synthetic samples.
 
+## Simulator
+
+![Diagram](images/1.png)
+![Diagram](images/2.png)
+![Diagram](images/3.png)
+![Diagram](images/4.png)
+![Diagram](images/5.png)
+
 ## Installation
 
 ```bash
@@ -72,19 +80,9 @@ Robust generalization across rain, snow, fog, nightlight.
 
 Enhances safety and reliability of perception systems in autonomous vehicles.
 
-## References
-
-```txt
-M. A. Samani and M. Farrokhi, "Adverse to Normal Image Reconstruction Using Inverse of StarGAN for Autonomous Vehicle Control," in IEEE Access, vol. 13, pp. 77305-77316, 2025, doi: 10.1109/ACCESS.2025.3564848. keywords: {Meteorology;Image reconstruction;Accuracy;Real-time systems;Autonomous vehicles;Rain;Generators;Snow;Computer architecture;Cameras;Image reconstruction;generative adversarial networks;autonomous vehicles;intelligent control},
-```
-
-![Diagram](images/1.png)
-![Diagram](images/2.png)
-![Diagram](images/3.png)
-![Diagram](images/4.png)
-![Diagram](images/5.png)
 
 
+## Control Diagrams
 
 ![Diagram](plots/error_x.png)
 ![Diagram](plots/location.png)
@@ -92,3 +90,17 @@ M. A. Samani and M. Farrokhi, "Adverse to Normal Image Reconstruction Using Inve
 ![Diagram](plots/steering.png)
 ![Diagram](plots/xy.png)
 ![Diagram](plots/yaw.png)
+
+## References
+
+```txt
+@article{Samani2025InverseStarGAN,
+  author    = {M. A. Samani and M. Farrokhi},
+  title     = {Adverse to Normal Image Reconstruction Using Inverse of StarGAN for Autonomous Vehicle Control},
+  journal   = {IEEE Access},
+  volume    = {13},
+  pages     = {77305--77316},
+  year      = {2025},
+  doi       = {10.1109/ACCESS.2025.3564848}
+}
+```
